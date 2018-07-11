@@ -25,7 +25,7 @@ class OCTransport(object):
         ctx = _app_ctx_stack.top
         if ctx is not None:
             if not hasattr(ctx, "ot_api"):
-                ctx.otapi = self.connect()
+                ctx.ot_api = self.connect()
             return ctx.ot_api
 
 ot_api = OCTransport()
