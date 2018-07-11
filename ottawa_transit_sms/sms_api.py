@@ -20,7 +20,7 @@ def handle_request(request: str):
 
 @sms_blueprint.route("/sms", methods=["GET", "POST"])
 def transit_request():
-    body = request.values.get("body")
+    body = request.form['Body']
     response = handle_request(body)
 
     # Add a message
