@@ -1,5 +1,8 @@
 import enum
+
 from flask import Flask
+
+from ottawa_transit_sms import config
 
 __version__ = "0.1.0"
 
