@@ -1,0 +1,11 @@
+{
+  "name": "ottawa-transit-sms",
+  "description": "Simple sms client of the OCTranspo API",
+  "image": "heroku/python",
+  "repository": "https://github.com/buckley-w-david/ottawa-transit-sms",
+  "keywords": ["python", "flask", "twilio" ],
+  "env": {
+  },
+  "environments": {
+  }
+}
