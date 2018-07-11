@@ -8,6 +8,7 @@ authors = ["David Buckley <buckley.w.david@gmail.com>"]
 python = "^3.6"
 twilio = "^6.14"
 flask = "^1.0"
+gunicorn = "^19.9"
 
 [tool.poetry.dev-dependencies]
 pytest = "^3.0"

@@ -30,4 +30,8 @@ def create_app(environment: Environment):
 
     app.register_blueprint(sms_blueprint)
 
+    from ottawa_transit_sms.views import views
+
+    app.register_blueprint(views)
+
     return app
