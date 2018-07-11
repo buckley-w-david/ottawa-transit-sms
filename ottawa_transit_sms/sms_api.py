@@ -15,7 +15,7 @@ short_codes = {
 
 def handle_request(request: str):
     api = ot_api.api
-    return str(api.get_next_trips_for_stop_all_routes(stop_no=int(body)))
+    return str(api.get_next_trips_for_stop_all_routes(stop_no=int(request)))
 
 
 @sms_blueprint.route("/sms", methods=["GET", "POST"])
