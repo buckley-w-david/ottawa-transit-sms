@@ -320,6 +320,15 @@ pytest = ">=2.6.0"
 
 [[package]]
 category = "main"
+description = "Python interface for OCTranspo API"
+name = "python-ottawa-transit"
+optional = false
+platform = "*"
+python-versions = ">=3.6,<4.0"
+version = "0.2.0"
+
+[[package]]
+category = "main"
 description = "World timezone definitions, modern and historical"
 name = "pytz"
 optional = false
@@ -425,7 +434,7 @@ python-versions = "*"
 version = "1.10.11"
 
 [metadata]
-content-hash = "6668eca49c1ee314b21e61179efa2190c45cf47351358e64439f787eb10e603e"
+content-hash = "9d1a01eb50f6b2483fddaeed425be3f979cf2f8b5bcf64f873a5be0ad1bba337"
 platform = "*"
 python-versions = "^3.6"
 
@@ -458,6 +467,7 @@ pylint = ["a48070545c12430cfc4e865bf62f5ad367784765681b3db442d8230f0960aa3c", "f
 pysocks = ["3fe52c55890a248676fd69dc9e3c4e811718b777834bcaab7a8125cf9deac672"]
 pytest = ["0453c8676c2bee6feb0434748b068d5510273a916295fd61d306c4f22fbfd752", "4b208614ae6d98195430ad6bde03641c78553acee7c83cec2e85d613c0cd383d"]
 pytest-cov = ["03aa752cf11db41d281ea1d807d954c4eda35cfa1b21d6971966cc041bbf6e2d", "890fe5565400902b0c78b5357004aab1c814115894f4f21370e2433256a3eeec"]
+python-ottawa-transit = ["355967f202c8d23a4f86a2bc40c7acfbf921d136f5bb0103ab983036221ba185", "cecbfd90ffd5a4914c6ea8f6f2ab560648af4b0a02f67e3f23f66d1b5bd42c87"]
 pytz = ["a061aa0a9e06881eb8b3b2b43f05b9439d6583c206d0a6c340ff72a7b6669053", "ffb9ef1de172603304d9d2819af6f5ece76f2e85ec10692a524dd876e72bf277"]
 requests = ["63b52e3c866428a224f97cab011de738c36aec0185aa91cfacd418b5d58911d1", "ec22d826a36ed72a7358ff3fe56cbd4ba69dd7a6718ffd450ff0e9df7a47ce6a"]
 six = ["70e8a77beed4562e7f14fe23a786b54f6296e34344c23bc42f07b15018ff98e9", "832dc0e10feb1aa2c68dcc57dbb658f1c7e65b9b61af69048abc87a2db00a0eb"]

@@ -9,6 +9,7 @@ python = "^3.6"
 twilio = "^6.14"
 flask = "^1.0"
 gunicorn = "^19.9"
+python-ottawa-transit = "^0.2.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^3.0"
